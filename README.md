@@ -130,3 +130,7 @@ PAPER COMPLETED 4 ...  EACH PAPER MARK 3 OUT OF 8 ... TOTAL ... 12 [ POOR AND CO
      imgdir = (len(sys.argv) > 1 and sys.argv[1]) or 'images'    
      main, save = viewer(imgdir, kind=Tk)    
      main.mainloop()
+
+
+
+503PP4E\Gui\PIL\viewer-thumbs-fixed.py545
