@@ -114,7 +114,6 @@ custom version that lays out with fixed-size buttons
     win.title('Viewer: ' + imgdir)    
     thumbs = makeThumbs(imgdir)    
     if not cols:        
-    
     cols = int(math.ceil(math.sqrt(len(thumbs))))      # fixed or N x N    
     savephotos = []    
     while thumbs:        
