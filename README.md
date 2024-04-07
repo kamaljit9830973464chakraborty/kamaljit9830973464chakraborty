@@ -110,6 +110,7 @@ def viewer(imgdir, kind=Toplevel, cols=None):
     """    
 custom version that lays out with fixed-size buttons    
     """    
+    
     win = kind()    
     win.title('Viewer: ' + imgdir)    
     thumbs = makeThumbs(imgdir)    
