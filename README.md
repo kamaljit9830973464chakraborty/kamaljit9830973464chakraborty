@@ -132,8 +132,7 @@ custom version that lays out with fixed-size buttons
         
      Button(win, text='Quit', command=win.quit, bg='beige').pack(fill=X)    
      return win, savephotos 
-     
- if __name__ == '__main__':    
+     if __name__ == '__main__':    
      imgdir = (len(sys.argv) > 1 and sys.argv[1]) or 'images'    
      main, save = viewer(imgdir, kind=Tk)    
      main.mainloop()
