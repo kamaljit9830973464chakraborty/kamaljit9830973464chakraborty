@@ -101,25 +101,15 @@ PAPER COMPLETED 4 ...  EACH PAPER MARK 3 OUT OF 8 ... TOTAL ... 12 [ POOR AND CO
 
 
 
-import sys, math
 
-from tkinter import *
-
-from PIL.ImageTk import PhotoImage 
-
-from viewer_thumbs import makeThumbs, ViewOne 
-
-def viewer(imgdir, kind=Toplevel, cols=None):    
-    """    
-
-custom version that lays out with fixed-size buttons    
-    """    
     import sys, math
     from tkinter import * 
     from PIL.ImageTk import PhotoImage 
     from viewer_thumbs import makeThumbs, ViewOne 
-    def viewer(imgdir, kind=Toplevel, cols=None):    """    
-    custom version that lays out with fixed-size buttons    """
+    def viewer(imgdir, kind=Toplevel, cols=None):    
+        """    
+        custom version that lays out with fixed-size buttons    
+        """
     
     win = kind()    
     win.title('Viewer: ' + imgdir)    
