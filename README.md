@@ -95,13 +95,6 @@ PAPER COMPLETED 4 ...  EACH PAPER MARK 3 OUT OF 8 ... TOTAL ... 12 [ POOR AND CO
 
 
 
-
-
-
-
-
-
-
     import sys, math
     from tkinter import * 
     from PIL.ImageTk import PhotoImage 
